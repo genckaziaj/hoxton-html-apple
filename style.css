@@ -1,1 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
+.header {
+  background-color: #000000cc;
+}
+
+.header-list {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  list-style: none;
+}
+
+.header-item {
+  padding: 11px;
+}
+
+.header-logo {
+  width: 17px;
+}
+
+.search-icon,
+.bag-icon {
+  font-size: 18px;
+  color: #f5f5f7;
+  opacity: 0.8;
+}
+
+.header-link {
+  font-size: 12px;
+  color: #f5f5f7;
+  opacity: 0.8;
+  text-decoration: none;
+}
