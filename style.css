@@ -5,12 +5,12 @@
   font-family: sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .header {
@@ -50,6 +50,12 @@ a {
   opacity: 0.8;
 }
 
+.header-link:hover,
+.search-icon:hover,
+.bag-icon:hover {
+  opacity: 1;
+}
+
 .top_section_header {
   background-color: #f5f5f7;
   display: grid;
@@ -68,4 +74,194 @@ a {
 
 .north_east {
   font-size: 0.8rem;
+}
+
+.top_section_article {
+  padding-top: 2.7rem;
+  text-align: center;
+  height: 595px;
+  background-size: 3008px 624px;
+  background-image: url(./images/iphon_13_pro.jpg);
+  background-repeat: no-repeat;
+  background-position: center -40px;
+}
+
+.headline {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.sub-headline {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.headline-links a {
+  font-size: 1.31rem;
+  color: #06c;
+}
+
+.headline-links a:last-child {
+  margin-left: 2.2rem;
+}
+
+.arrow-right {
+  font-size: 1.5rem;
+  vertical-align: bottom;
+  margin-top: 0.8rem;
+}
+
+.product-section {
+  text-align: center;
+  height: 548px;
+  background-size: 3008px 624px;
+  background-repeat: no-repeat;
+  background-image: url(./images/iphone-se.jpg);
+  background-position: center -90px;
+}
+
+.product-item {
+  height: 55px;
+  background-size: 221px 55px;
+  background-repeat: no-repeat;
+  background-image: url(./images/iphone_se.png);
+  background-position: center;
+}
+
+.product-section p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.product-section h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-top: 0.3rem;
+}
+
+.dark-section {
+  display: grid;
+  align-content: center;
+  justify-content: start;
+  text-align: center;
+  padding-left: 160px;
+  padding-bottom: 70px;
+  gap: 0.2rem;
+  height: 580px;
+  background-size: 3008px 624px;
+  background-repeat: no-repeat;
+  background-image: url(./images/ipads.jpg);
+  background-position: center -40px;
+}
+
+.dark-section_item {
+  height: 53px;
+  background-size: 193px 53px;
+  background-repeat: no-repeat;
+  background-image: url(./images/ipad_logo.png);
+  background-position: center;
+}
+
+.dark-section h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-top: 0.3rem;
+  color: #f5f5f7;
+}
+
+.dark a {
+  color: #2997ff;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  padding: 10px;
+}
+
+.laptop-wrapper {
+  background-image: linear-gradient(#020d1f 16%, #000 35%);
+}
+
+.laptop-item {
+  height: 580px;
+  background-size: 461px 580px;
+  background-repeat: no-repeat;
+  background-image: url(./images/laptop_image.png);
+  background-position: center;
+}
+
+.apple-items {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url(./images//apple-items.jpg);
+  background-position: center;
+}
+
+.apple-cel {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url(./images/iphone-13-items.jpg);
+  background-position: center;
+}
+
+.apple-watch {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url(./images/apple-watch.jpg);
+  background-position: center;
+}
+
+.apple-card {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url(./images/apple-card.jpg);
+  background-position: center;
+}
+
+.apple-id {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url(./images/apple-tv.jpg);
+  background-position: center;
+}
+
+.footer {
+  background-color: rgb(245, 245, 247);
+  padding: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer .column {
+  margin-right: 45px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer h4 {
+  font-size: 0.75rem;
+  color: #1d1d1f;
+  margin-bottom: 0.6rem;
+  margin-top: 1.2rem;
+}
+
+.footer li {
+  margin-bottom: 0.6rem;
+}
+
+.footer a {
+  font-size: 0.75rem;
+  color: #424245;
 }
